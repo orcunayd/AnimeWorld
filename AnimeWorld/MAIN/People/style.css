@@ -1,0 +1,12 @@
+body{
+    font-family: 'Poppins', sans-serif; 
+} 
+.text{
+    display: inline-block; 
+    margin-left: 10px; 
+    vertical-align: top;
+} 
+img{
+    max-width: 100%; 
+    height: auto; 
+}

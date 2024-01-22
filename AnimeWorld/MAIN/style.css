@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(wallpapersden.com_anime-girl-looking-for-sunset_1920x1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+    width: 100%;
+    font-family: sans-serif;
+}
+.menu-bar{
+    background-color: rgb(9, 54, 138);
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+}
+.menu-bar ul li{
+    width: 150px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.active, .menu-bar ul li:hover{
+    background: #d4c995;
+    border-radius: 10px;
+}
+.menu-bar .fas{
+    margin-right: 8px;
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: rgb(9, 54, 138);
+    margin-top: 15px;
+    margin-left: -15px;
+    font-size: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    text-align: left;
+    border-radius: 0;
+    cursor: pointer;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color: #d4c995;
+}
+.text footer p{
+    margin-top: 11cm;
+}
